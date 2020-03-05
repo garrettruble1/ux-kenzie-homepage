@@ -13,35 +13,35 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <nav>
+    <nav class="nav flex-column">
       <ul>
-        <li><a href="#">Admissions</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a class="cta-button" href="#">Schedule a Tour</a></li>
+        <li class="nav__item"><a href="#">Admissions</a></li>
+        <li class="nav__item"><a href="#">Programs</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+        <li class="nav__item"><a class="cta-button" href="#">Schedule a Tour</a></li>
       </ul>
     </nav>
-
-    <section class="hero">
+    
+    <section class="hero flex-column">
       <h1>Design your tech career</h1>
       <h2 class="hero-subheading">Kenzie Academy is a two-year learning track and apprenticeship program.</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/FqVHe2BGdEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="mainvideo" width="560" height="315" src="https://www.youtube.com/embed/FqVHe2BGdEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <hr/>
 
-    <section class="signup-form">
+    <section class="signup-form flex-column">
       <h3>Let's Chat.</h3>
       <p>Kenzie Academy is no small commitment. If we've piqued your interest today, we'd love to keep the conversation going.</p>
       
-      <form class="main-form">
-        <div class="name">
-          <input placeholder="First Name" />
-          <input placeholder="Last Name" />
+      <form class="form">
+        <div class="formgroup">
+          <input class="formgroup__item" placeholder="First Name" />
+          <input class="formgroup__item" placeholder="Last Name" />
         </div>
-        <input placeholder="Email" />
-        <input placeholder="Phone" />
-        <input class="submit-button" type="submit">
+        <input class="form__item" placeholder="Email" />
+        <input class="form__item" placeholder="Phone" />
+        <input class="form__item submit-button" type="submit">
       </form>
     </section>
 
